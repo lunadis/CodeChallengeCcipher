@@ -1,9 +1,12 @@
 {
   "name": "CesarCrip",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "answer.js",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "crypto-js": "^3.1.9-1",
+    "form-data": "^3.0.0",
+    "request": "^2.88.0"
   }
 }

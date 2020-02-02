@@ -1,0 +1,13 @@
+C:\Projetos\CodeChallengeCcipher\Csharp\CodNation.Csharp.Cchipher\CodNation.Csharp.Cchipher\bin\Debug\netcoreapp3.1\CodNation.Csharp.Cchipher.exe
+C:\Projetos\CodeChallengeCcipher\Csharp\CodNation.Csharp.Cchipher\CodNation.Csharp.Cchipher\bin\Debug\netcoreapp3.1\CodNation.Csharp.Cchipher.deps.json
+C:\Projetos\CodeChallengeCcipher\Csharp\CodNation.Csharp.Cchipher\CodNation.Csharp.Cchipher\bin\Debug\netcoreapp3.1\CodNation.Csharp.Cchipher.runtimeconfig.json
+C:\Projetos\CodeChallengeCcipher\Csharp\CodNation.Csharp.Cchipher\CodNation.Csharp.Cchipher\bin\Debug\netcoreapp3.1\CodNation.Csharp.Cchipher.runtimeconfig.dev.json
+C:\Projetos\CodeChallengeCcipher\Csharp\CodNation.Csharp.Cchipher\CodNation.Csharp.Cchipher\bin\Debug\netcoreapp3.1\CodNation.Csharp.Cchipher.dll
+C:\Projetos\CodeChallengeCcipher\Csharp\CodNation.Csharp.Cchipher\CodNation.Csharp.Cchipher\bin\Debug\netcoreapp3.1\CodNation.Csharp.Cchipher.pdb
+C:\Projetos\CodeChallengeCcipher\Csharp\CodNation.Csharp.Cchipher\CodNation.Csharp.Cchipher\obj\Debug\netcoreapp3.1\CodNation.Csharp.Cchipher.csprojAssemblyReference.cache
+C:\Projetos\CodeChallengeCcipher\Csharp\CodNation.Csharp.Cchipher\CodNation.Csharp.Cchipher\obj\Debug\netcoreapp3.1\CodNation.Csharp.Cchipher.AssemblyInfoInputs.cache
+C:\Projetos\CodeChallengeCcipher\Csharp\CodNation.Csharp.Cchipher\CodNation.Csharp.Cchipher\obj\Debug\netcoreapp3.1\CodNation.Csharp.Cchipher.AssemblyInfo.cs
+C:\Projetos\CodeChallengeCcipher\Csharp\CodNation.Csharp.Cchipher\CodNation.Csharp.Cchipher\obj\Debug\netcoreapp3.1\CodNation.Csharp.Cchipher.dll
+C:\Projetos\CodeChallengeCcipher\Csharp\CodNation.Csharp.Cchipher\CodNation.Csharp.Cchipher\obj\Debug\netcoreapp3.1\CodNation.Csharp.Cchipher.pdb
+C:\Projetos\CodeChallengeCcipher\Csharp\CodNation.Csharp.Cchipher\CodNation.Csharp.Cchipher\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Projetos\CodeChallengeCcipher\Csharp\CodNation.Csharp.Cchipher\CodNation.Csharp.Cchipher\obj\Debug\netcoreapp3.1\CodNation.Csharp.Cchipher.csproj.CopyComplete

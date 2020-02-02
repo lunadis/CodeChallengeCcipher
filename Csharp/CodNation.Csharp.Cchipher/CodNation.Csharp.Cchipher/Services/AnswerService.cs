@@ -1,8 +1,10 @@
 ﻿using CodNation.Csharp.Cchipher.Infra;
+using CodNation.Csharp.Cchipher.Infra.File;
 using CodNation.Csharp.Cchipher.Model;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace CodNation.Csharp.Cchipher.Services
@@ -12,16 +14,25 @@ namespace CodNation.Csharp.Cchipher.Services
         internal void SaveFile(IoResponseModel dados)
         {
             JsonService jsonService = new JsonService();
+            FileMananger fm = new FileMananger();
 
             var recordDate = jsonService.Serializar(dados);
 
             var path = Environment.CurrentDirectory + "\\ansewer.json";
 
-            using (StreamWriter writer = File.CreateText(path))
-            {
-                writer.Write(recordDate);
-                writer.Close();
-            }
+            fm.Save(path, recordDate);
+
+            //using(FileStream fs = new FileStream(path,FileMode.OpenOrCreate))
+            //{
+            //    using (StreamWriter writer = new StreamWriter(fs))
+            //    {
+            //        writer.Write(recordDate);
+            //        writer.Flush();
+            //        writer.Close();
+            //    }
+            //    fs.Close();
+            //}
+            
         }
 
         internal void DecryptFile()
@@ -37,8 +48,19 @@ namespace CodNation.Csharp.Cchipher.Services
                 var FileData = jsonService.Deserializar<IoResponseModel>(dados);
 
                 FileData.decifrado = DecryptCesar(FileData.cifrado);
+                FileData.resumo_criptografico = Sha1(FileData.decifrado);
+
+                SaveFile(FileData);
             }
 
+        }
+
+        private string Sha1(string decifrado)
+        {
+            var bytes = Encoding.Default.GetBytes(decifrado);
+            SHA1CryptoServiceProvider sha1service = new SHA1CryptoServiceProvider();
+            string hash = BitConverter.ToString(sha1service.ComputeHash(bytes)).Replace("-","");
+            return hash;
         }
 
         private string DecryptCesar(string cifrado)
